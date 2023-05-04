@@ -12,8 +12,8 @@ function Home() {
       <div className="mt-16 mx-4">
         <Accountsblock />
       </div>
-      <div className="your-name mx-4 db ">Your Name</div>
-      <div className="recents flex row mx-4 db">
+      <div className="your-name mx-4">Your Name</div>
+      <div className="recents flex row mx-4">
         <img src="/img/small down.svg/" />
         <div className="pl-2">Recents</div>
       </div>
