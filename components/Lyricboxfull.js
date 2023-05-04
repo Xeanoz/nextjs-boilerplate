@@ -1,10 +1,10 @@
 function Lyricboxfull() {
   return (
     <div>
-      <div className="lyric-box-2 db button2">
-        <div className="top-lyric-box db flex justify-between">
+      <div className="lyric-box-2 button2">
+        <div className="top-lyric-box flex justify-between">
           <div className="lyric-head">Lyrics</div>
-          <a href="/lyricedit">
+          <a className="button4" href="/lyricedit">
             <img src="/img/lyrics-edit-butt.svg" />
           </a>
         </div>

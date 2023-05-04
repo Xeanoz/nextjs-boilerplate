@@ -6,7 +6,7 @@ function Player({ songname = "Song Name", date = "DD/MM/YYYY" }) {
     setShowImageOne(!showImageOne);
   };
   return (
-    <div className="player-frame db">
+    <div className="player-frame">
       <div className="song-frame flex justify-between ">
         <div className="left-player">
           <div className="song-name-player">{songname}</div>
@@ -16,7 +16,7 @@ function Player({ songname = "Song Name", date = "DD/MM/YYYY" }) {
           <img src="img/Switch Edit Mode.svg" />
         </div>
       </div>
-      <div className="sound-wave flex justify-center db mt-3">
+      <div className="sound-wave flex justify-center mt-3">
         <img src="img/Sound Wave.svg" className="w-[80%]" />
       </div>
       <div className="button-frame flex row justify-between">

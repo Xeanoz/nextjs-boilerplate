@@ -8,11 +8,11 @@ function Uploadjs() {
         <title>Upload Your Song</title>
       </Head>
       <div className="top-upload flex justify-between items-center">
-        <Link className="button1 ml-4 w-24 cancel db" href="/">
+        <Link className="button1 ml-4 w-12 cancel db" href="/">
           Cancel
         </Link>
         <div className="filename db">Filename.mp4</div>
-        <div className="button1 flex justify-end save w-24 db mr-4">Save</div>
+        <div className="button1 flex justify-end save w-12 db mr-4">Save</div>
       </div>
       <div className="flex justify-center button1 mt-20">
         <img src="/img/InsertPicture.svg" />

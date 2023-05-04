@@ -84,7 +84,6 @@ body {
 .left {
   display: flex;
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 .font700 {
@@ -136,7 +135,6 @@ body {
 }
 
 .song-frame {
-  border: 1px solid red;
   margin-top: 32px;
 }
 
@@ -238,13 +236,22 @@ body {
 .button2:hover,
 .button2:focus,
 .button2:active {
-  box-shadow: 0 0 20px #60c689;
+  box-shadow: 0 0 10px #60c689;
 }
 
 .button3:hover,
 .button3:focus,
 .button3:active {
   color: #60c689;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.button4:hover,
+.button4:focus,
+.button4:active {
+  box-shadow: 0 0 5px #ffffff;
+  border-radius: 20px;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -317,10 +324,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-}
-
-.blank1 {
-  width: 8%;
 }
 
 .draft-block-frame {
