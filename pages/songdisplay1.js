@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Accountsblock from "@/components/Accountsblock";
 import Player from "@/components/Player";
 import Backdown from "@/components/Backdown";
 
