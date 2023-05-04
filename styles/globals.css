@@ -2,21 +2,353 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
 * {
-  border: 1px solid salmon;
   box-sizing: border-box;
 }
 body {
+  font-family: "Inter", sans-serif;
   background: #212121;
   color: white;
-  position: relative;
+  /* position: relative; */
   margin: 0px;
-  padding: 16px;
-  padding-top: 64px;
+}
+
+@media (min-width: 500px) {
+  body {
+    display: none;
+  }
+}
+
+.phone-wrapper {
+  max-width: 410px;
+  max-height: 1000px;
+  min-width: 393px;
+  max-width: 852px;
+}
+
+.wrapper {
+  margin: 16px;
+  margin-top: 64px;
+}
+
+.wrapper .no-padding {
+  margin: 0px;
+}
+/* className="wrapper no-top-padding" */
+
+.db {
+  border: 1px solid salmon;
+}
+
+.accblock-frame {
+  display: flex;
+  align-items: center;
+}
+
+.name-box {
+  margin-left: 16px;
+  width: 70%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text-grey {
+  color: #bcbcbc;
 }
 
 .Songblock-frame {
-  position: flex;
-  flex-direction: row;
-  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.bgeffect:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.only-text-frame {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid lightblue; */
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.font700 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.font400 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.right {
+  /* border: 1px solid salmon; */
+  display: flex;
+  align-items: center;
+}
+
+.your-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 16px;
+}
+
+.recents {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.threedots:hover,
+.threedots:focus,
+.threedots:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.song-frame {
+  border: 1px solid red;
+  margin-top: 32px;
+}
+
+.lyric-box {
+  background: #60c689;
+  margin-top: 32px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  padding-top: 24px;
+  width: 100%;
+  height: 200px;
+}
+
+.lyric-box-2 {
+  background: #60c689;
+  margin-top: 32px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 24px;
+  width: 100%;
+  height: 100%;
+}
+.lyric-box-box {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 40px;
+}
+
+.lyric-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.song-name-player {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.song-date-player {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bcbcbc;
+}
+
+.mg32 {
+  margin-bottom: 32px;
+}
+
+.mg48 {
+  margin-bottom: 48px;
+}
+
+.top-upload {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  height: 48px;
+}
+
+.filename {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.top-lyric-edit {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.button1:hover,
+.button1:focus,
+.button1:active {
+  color: #ddfbe9;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.button2:hover,
+.button2:focus,
+.button2:active {
+  box-shadow: 0 0 20px #60c689;
+}
+
+.button3:hover,
+.button3:focus,
+.button3:active {
+  color: #60c689;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.top-lyric-stroke {
+  background: #373737;
+  height: 1px;
+  padding: 0px;
+}
+
+.top-lyric-stroke .h05 {
+  background: #373737;
+  height: 0.5px;
+}
+
+.text-green {
+  color: #60c689;
+}
+
+.lyric-edit-box-songname {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.lyric-edit-box-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bcbcbc;
+}
+
+.title-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.note-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.top-upload {
+  background: #121212;
+}
+
+.draft-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.blank1 {
+  width: 8%;
+}
+
+.draft-block-frame {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  height: 64px;
+}
+
+.stroke1 {
+  width: 100%;
+  background: #bcbcbc;
+}
+
+.detail-song-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.note-box {
+  background: #60c689;
+  margin-top: 52px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 24px;
+  width: 100%;
+  height: 100%;
 }
