@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 function Backdown() {
   return (
     <div>
-      <a href="/">
+      <Link href="/">
         <img src="/img/back-down.svg" />
-      </a>
+      </Link>
     </div>
   );
 }

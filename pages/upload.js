@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 function Uploadjs() {
   return (
@@ -7,9 +8,9 @@ function Uploadjs() {
         <title>Upload Your Song</title>
       </Head>
       <div className="top-upload flex justify-between items-center">
-        <a className="button1 ml-4 w-24 cancel db" a href="/">
+        <Link className="button1 ml-4 w-24 cancel db" href="/">
           Cancel
-        </a>
+        </Link>
         <div className="filename db">Filename.mp4</div>
         <div className="button1 flex justify-end save w-24 db mr-4">Save</div>
       </div>
