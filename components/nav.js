@@ -6,7 +6,7 @@ function Nav() {
   ];
 
   return (
-    <nav className="text-center">
+    <nav className="text-center nav-bar">
       <ul className="flex justify-between px-4 my-4 py-1">
         {links.map((x) => (
           <li key={x.id} className="flex px-2 py-1">

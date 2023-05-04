@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  border: 1px solid salmon;
+  box-sizing: border-box;
+}
+body {
+  background: #212121;
+  color: white;
+  position: relative;
+  margin: 0px;
+  padding: 16px;
+  padding-top: 64px;
+}
+
+.Songblock-frame {
+  position: flex;
+  flex-direction: row;
+  border: 1px solid blue;
+}

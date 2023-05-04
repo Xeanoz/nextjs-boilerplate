@@ -1,5 +1,6 @@
 import Nav from "../components/nav";
 import Head from "next/head";
+import Songblock from "@/components/Songblock";
 
 function Home() {
   return (
@@ -7,8 +8,7 @@ function Home() {
       <Head>
         <title>Tech Dsgn Exp</title>
       </Head>
-      <Nav />
-      <h1 className="text-9xl">Tenz</h1>
+      <Songblock />
     </div>
   );
 }
