@@ -14,10 +14,20 @@ body {
   /* position: relative; */
   margin: 0px;
 }
-
-@media (min-width: 550px) {
-  body {
+#caution {
+  display: none;
+}
+@media (min-width: 475px) {
+  .container {
     display: none;
+  }
+  #caution {
+    display: block;
+    color: #60c689;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
   }
 }
 
@@ -77,12 +87,16 @@ body {
   margin-left: 12px;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid lightblue; */
   justify-content: center;
+}
+.songblock-pic {
+  min-width: 47px;
+  min-height: 47px;
 }
 
 .left {
   display: flex;
+  align-items: center;
   width: 100%;
 }
 
@@ -162,8 +176,8 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
-  padding: 40px;
+  line-height: 150%;
+  padding: 24px;
 }
 
 .lyric-head {
@@ -207,6 +221,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   height: 48px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .filename {
@@ -225,6 +240,15 @@ body {
   line-height: 17px;
 }
 
+.top-lyric-edit2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 .button1:hover,
 .button1:focus,
 .button1:active {
@@ -236,13 +260,16 @@ body {
 .button2:hover,
 .button2:focus,
 .button2:active {
-  box-shadow: 0 0 10px #60c689;
+  transition: 0.15s ease-out;
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .button3:hover,
 .button3:focus,
 .button3:active {
   color: #60c689;
+  transition: 0.15s ease-out;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -250,10 +277,16 @@ body {
 .button4:hover,
 .button4:focus,
 .button4:active {
-  box-shadow: 0 0 5px #ffffff;
   border-radius: 20px;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.button5:hover,
+.button5:focus,
+.button5:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .top-lyric-stroke {
@@ -314,10 +347,6 @@ body {
   line-height: 24px;
 }
 
-.top-upload {
-  background: #121212;
-}
-
 .draft-text {
   font-family: "Inter";
   font-style: normal;
@@ -354,4 +383,39 @@ body {
   padding-top: 24px;
   width: 100%;
   height: 100%;
+}
+
+.bottom-songblock-frame {
+  background: #484848;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 32px;
+  border-bottom: 3px solid #60c689;
+}
+
+.lyric-box-box {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.bottom-pic-max-size {
+  max-width: 44px;
+  max-height: 44px;
+}
+
+.block-pic-max-size {
+  max-width: 47px;
+  max-height: 47px;
+}
+
+.background-fill {
+  position: fixed;
+  bottom: 0px;
+  background: rgba(33, 33, 33, 0.5);
+  backdrop-filter: blur(25px);
+  height: 40px;
+  width: 100%;
 }

@@ -10,7 +10,7 @@ function Lyricdisplayjs() {
         <title>Song Lyric</title>
       </Head>
       <Backdown />
-      <Player />
+      <Player songname="I dreamt about you" date="23/05/2023" />
       <Lyricboxfull />
     </div>
   );

@@ -12,9 +12,9 @@ function Songdisplayjs() {
         <Backdown />
       </div>
       <div className="flex justify-center">
-        <img src="https://placehold.co/345x345" />
+        <img src="/img/song-pic-big-2.svg/" />
       </div>
-      <Player />
+      <Player songname="I dreamt about you" date="23/05/2023" />
       <a href="/lyricdisplay">
         <div class="lyric-box button2">
           <div class="lyric-head">Lyrics</div>

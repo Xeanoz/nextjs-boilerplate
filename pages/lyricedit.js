@@ -6,27 +6,53 @@ function Lyriceditjs() {
       <Head>
         <title>Lyrics Edtior</title>
       </Head>
-      <div className="top-lyric-edit mx-6 h-16 flex justify-between items-center row">
-        <a className="button1" href="/lyricdisplay">
+      <div className="top-lyric-edit2 h-16 flex justify-between items-center row">
+        <a className="button1 mx-6" href="/lyricdisplay">
           Close
         </a>
-        <div className="top-lyric-edit-right flex gap-6 row">
+        <div className="top-lyric-edit-right flex mx-6 gap-6 row">
           <a className="button1" href="/draft">
             Drafts
           </a>
-          <div className="text-green">Save</div>
+          <div className="text-green button3">Save</div>
         </div>
       </div>
-      <div className="top-lyric-stroke"></div>
-      <div className="lyric-edit-box m-5 db">
-        <div className="lyric-edit-box-songname">Song Name - DD/MM/YYYY</div>
+      <div className="lyric-edit-box m-5">
+        <div className="lyric-edit-box-songname">
+          I dreamt about you - 23/05/2023
+        </div>
         <div className="lyric-edit-box-input mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat laborum
+          Our story has been around for a long time <br />
+          She’s gone away She’s gone away <br />
+          I’ve known all of this time I should move on <br />
+          Don't dwell on the past. <br />
+          <br />
+          Try to forget picture of you who love me <br />
+          How can I forget you <br />
+          Or is the heart still stubborn to keep you <br />
+          What do i have to do <br />
+          <br />
+          I don’t know why I still can’t to forget you <br />
+          Because last night I dreamt of you <br />
+          I dreamt of you <br />
+          I dreamt of you <br />
+          It’s you <br />
+          still you <br />
+          <br />
+          Or I keep it with pictures of the past that once loved each other I
+          just want to delete to forget it all <br />
+          I don't want to go back and miss her. repeat the pain in the heart
+          <br />
+          <br />
+          I just want to forget you <br />
+          What do i have to do <br />
+          <br />
+          I don’t know why I still can’t to forget you <br />
+          Because last night I dreamt of you <br />
+          I dreamt of you <br />
+          I dreamt of you <br />
+          It’s you <br />
+          still you <br />
         </div>
       </div>
     </div>

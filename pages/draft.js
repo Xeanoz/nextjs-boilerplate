@@ -17,9 +17,21 @@ function Draftjs() {
         <div className="w-12"></div>
       </div>
       <div className="top-lyric-stroke"></div>
-      <Draftblock ddate="12/12/2023" time="2 hours" />
-      <Draftblock />
-      <Draftblock />
+      <Draftblock
+        songname="I dreamt about you"
+        date="23/05/2023"
+        time="2 hours"
+      />
+      <Draftblock
+        songname="I dreamt about you"
+        date="23/05/2023"
+        time="5 hours"
+      />
+      <Draftblock
+        songname="I dreamt about you"
+        date="23/05/2023"
+        time="10 hours"
+      />
     </div>
   );
 }

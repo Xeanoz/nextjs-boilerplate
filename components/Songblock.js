@@ -6,7 +6,7 @@ function Songblock({
   return (
     <div className="Songblock-frame bgeffect px-4">
       <a className="left" href="/songdisplay1">
-        <div>
+        <div className="block-pic-max-size">
           <img src={ImageUrl} />
         </div>
         <div className="only-text-frame">
@@ -15,7 +15,7 @@ function Songblock({
         </div>
       </a>
       <div className="right">
-        <a href="/detail" className="threedots">
+        <a href="/detail" className="threedots button3">
           <img src="/img/3Dots.svg" />
         </a>
       </div>
