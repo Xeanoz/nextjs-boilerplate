@@ -2,14 +2,15 @@ import Head from "next/head";
 import Backdown from "@/components/Backdown";
 
 function Deatiljs() {
-  return ( //หน้า Detail <- กดจากปุ่ม ... เข้ามา
+  return (
+    //หน้า Detail <- กดจากปุ่ม ... เข้ามา
     <div className="wrapper">
       <Head>
         <title>Song detail</title>
       </Head>
       <Backdown />
       <div className="flex button2 justify-center">
-        <img src="/img/InsertPicture.svg/" />
+        <img src="/img/InsertPicture2.svg/" />
       </div>
       <div className="flex flex-col items-center mt-6">
         <div className="detail-bar flex row gap-2">
