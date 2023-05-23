@@ -2,10 +2,10 @@ import Head from "next/head";
 import Backdown from "@/components/Backdown";
 
 function Deatiljs() {
-  return (
+  return ( //หน้า Detail <- กดจากปุ่ม ... เข้ามา
     <div className="wrapper">
       <Head>
-        <title>Song Detail</title>
+        <title>Song detail</title>
       </Head>
       <Backdown />
       <div className="flex button2 justify-center">

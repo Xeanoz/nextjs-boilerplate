@@ -5,14 +5,10 @@ import Addsongblock from "@/components/Addsongblock";
 import Bottomplayer from "@/components/Bottomplayer";
 
 function Home() {
-  return (
+  return ( //หน้า home หน้าแรก
     <div>
       <Head>
-        <title>Tech Dsgn Exp</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-          rel="stylesheet"
-        />
+        <title>Home Page</title>
       </Head>
       <div className="mt-16 mx-4">
         <Accountsblock />

@@ -2,10 +2,10 @@ import Draftblock from "@/components/Draftblock";
 import Head from "next/head";
 
 function Draftjs() {
-  return (
+  return ( //หน้าเลือก Draft
     <div>
       <Head>
-        <title>Song</title>
+        <title>Select your draft</title>
       </Head>
       <div className="top-lyric-edit mx-6 h-16 flex justify-between items-center row">
         <a className="button1 w-12" href="/lyricedit">

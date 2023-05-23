@@ -6,7 +6,7 @@ function Player({ songname = "Song Name", date = "DD/MM/YYYY" }) {
     setShowImageOne(!showImageOne);
   };
 
-  return (
+  return ( //ตัวเล่น
     <div className="player-frame">
       <div className="song-frame flex justify-between ">
         <div className="left-player flex flex-col gap-1">

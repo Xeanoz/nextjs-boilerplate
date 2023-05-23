@@ -1,5 +1,5 @@
 function Accountsblock() {
-  return (
+  return ( //Accounts
     <div className="accblock-frame">
       <div>
         <img src="/img/profile.svg" />

@@ -3,6 +3,7 @@ import Link from "next/link";
 
 function Uploadjs() {
   return (
+    //หน้า upload เพลง <-- กดจาก added your new song
     <div className="no-padding ">
       <Head>
         <title>Upload Your Song</title>

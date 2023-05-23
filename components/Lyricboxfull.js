@@ -1,5 +1,5 @@
 function Lyricboxfull() {
-  return (
+  return ( //เนื้อเพลงเต็มๆ
     <div>
       <div className="lyric-box-2">
         <div className="top-lyric-box flex justify-between items-center">

@@ -3,7 +3,7 @@ import Player from "@/components/Player";
 import Backdown from "@/components/Backdown";
 
 function Songdisplayjs() {
-  return (
+  return ( //หน้า Display เพลง <-- กดจาก Player ข้างล่างหรือ Block เพลงในหน้าโฮม
     <div className="wrapper">
       <Head>
         <title>Song</title>

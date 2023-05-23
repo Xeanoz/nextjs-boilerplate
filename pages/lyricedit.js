@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 function Lyriceditjs() {
-  return (
+  return ( //หน้าแก้เนื้อเพลง <--กดเข้ามาจากปุ่มปากกา Edit ใน Block โชว์เนื้อเพลงเต็มๆ
     <div>
       <Head>
         <title>Lyrics Edtior</title>

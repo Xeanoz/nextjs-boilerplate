@@ -24,4 +24,4 @@ export default function App({ Component, pageProps }) {
       </div>
     </>
   );
-}
+} //หน้าจอที่ขึ้นมาตอนจอใหญ่เกิน 475 px

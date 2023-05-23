@@ -4,7 +4,7 @@ import Backdown from "@/components/Backdown";
 import Lyricboxfull from "@/components/Lyricboxfull";
 
 function Lyricdisplayjs() {
-  return (
+  return ( //หน้าจอโชว์เนื้อเพลงแบบเต็มๆที่มี Player ด้วย <-- กดจาก Block Lyrics เปล่าๆสีเขียวๆ
     <div className="wrapper">
       <Head>
         <title>Song Lyric</title>

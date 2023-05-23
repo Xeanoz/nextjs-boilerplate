@@ -3,7 +3,7 @@ function Bottomplayer({
   date = "DD/MM/YYYY",
   ImageUrl = "/img/greenreg.svg/",
 }) {
-  return (
+  return ( //ตัวเล่นเพลงข้างล่างที่ fixed bottom ไว้
     <div className="bottom-songblock-frame py-2 flex w-screen px-4">
       <a className="left" href="/songdisplay1">
         <div className="bottom-pic-max-size">
